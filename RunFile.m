@@ -7,7 +7,7 @@ timeLength = length(F);
 time = 0:sampleRate:sampleRate*(timeLength-1);
 % plot sound
 plot(time,F(:,1))
-
+figure
 freq = frequency(F,sampleFreq);
 
 if freq > 415
